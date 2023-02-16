@@ -6,10 +6,10 @@ public class NumberToBreakOn {
             System.out.println("iterating till the end");
         }
         for (int i = 1; i <= numberToGoUntil; i++) {
+            System.out.println(i);
             if (i == toBreakWith) {
                 break;
             }
-            System.out.println(i);
         }
     }
 }
